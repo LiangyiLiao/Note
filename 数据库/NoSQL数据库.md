@@ -11,7 +11,7 @@ https://www.bilibili.com/video/BV13z411b7mU?p=2
 - 每个工作worker线程是单线程
   - 大并发请求情况下，redis单线程读取请求和本地计算（串行化）
 - 读写io线程多线程
-- 支持大并发socket连接（epoll）：
+- 支持大并发socket连                                                                                                                                              接（epoll）：
 - 本地计算
   - redis对value进行index increase等操作再返回给客户端
 - 五中value类型
